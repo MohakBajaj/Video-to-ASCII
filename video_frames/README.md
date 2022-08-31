@@ -1,0 +1,1 @@
+# This Folder contains all the extracted frames from the video input.
