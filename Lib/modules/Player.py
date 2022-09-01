@@ -22,7 +22,8 @@ class Player:
             raise ValueError('No filename provided')
         else:
             if os.listdir(self.reading_directory):
-                self.empty_frames()
+                if os.listdir(self.default_input_path)[0].endswith('.md'):
+                    self.empty_frames()
             print("Extracting")
             with zipfile.ZipFile(self.default_input_path / self.filename, 'r') as zip_ref:
                 zip_ref.extractall(self.reading_directory)
