@@ -1,3 +1,4 @@
 .vscode
 ascii_frames/*.txt
 video_frames/*.jpg
+Lib/modules/__pycahce__
