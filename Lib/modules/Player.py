@@ -59,5 +59,5 @@ class Player:
         print("Player Exited")
 
 if __name__ == "__main__":
-    Player("ascii_frames.zip", zipped=True).play()
+    Player("ascii_frames.asciipack", zipped=True).play()
     # Player().play()

@@ -49,4 +49,4 @@ class ToFrames:
         print("\nAll the Video Frames are being Extracted\n")
 
 if __name__ == "__main__":
-    ToFrames(r".\resources\example_video.mp4")
+    ToFrames(r".\resources\example_video_1.mp4")
